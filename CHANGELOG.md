@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/VinkyV/AppleMusicPatches/compare/v1.1.0...v1.2.0) (2026-06-26)
+
+
+### Features
+
+* release  1.2.0 ([4758c29](https://github.com/VinkyV/AppleMusicPatches/commit/4758c29832d5be367a927c3d5f08fb953db60ecc))
+
 # [1.1.0](https://github.com/VinkyV/AppleMusicPatches/compare/v1.0.0...v1.1.0) (2026-06-26)
 
 

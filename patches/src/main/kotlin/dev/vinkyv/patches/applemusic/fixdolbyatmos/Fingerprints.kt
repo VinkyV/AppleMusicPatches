@@ -1,4 +1,4 @@
-package dev.vinkyv.patches.applemusic
+package dev.vinkyv.patches.applemusic.fixdolbyatmos
 
 import app.revanced.patcher.accessFlags
 import app.revanced.patcher.composingFirstMethod

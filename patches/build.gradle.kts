@@ -4,10 +4,10 @@ patches {
     about {
         name = "Apple Music Patches"
         description = "Patches for Apple Music"
-        source = "git@github.com:VinkyV/AppleMusicPatches.git"
+        source = "https://github.com/VinkyV/AppleMusicPatches.git"
         author = "VinkyV"
         contact = ""
         website = ""
-        license = "GPL-3"
+        license = "GNU General Public License v3.0"
     }
 }

@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/VinkyV/AppleMusicPatches/compare/v1.0.0...v1.1.0) (2026-06-26)
+
+
+### Features
+
+* trigger release ([2ec31cc](https://github.com/VinkyV/AppleMusicPatches/commit/2ec31cc8b840fbd2fb7d0e6717192a74514853cc))
+
 # 1.0.0 (2026-06-25)
 
 

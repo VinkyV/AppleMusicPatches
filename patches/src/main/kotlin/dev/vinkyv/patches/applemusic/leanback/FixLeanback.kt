@@ -12,20 +12,26 @@ val fixLeanback = resourcePatch(
 
     apply {
         document("AndroidManifest.xml").use { document ->
-            document.createElement("uses-feature").apply {
-                setAttribute("android:name", "android.software.leanback")
-                setAttribute("android:required", "false")
-            }
-            document.createElement("uses-feature").apply {
-                setAttribute("android:name", "android.hardware.touchscreen")
-                setAttribute("android:required", "false")
+            document.getElementsByTagName("manifest").item(0).let {
+                val leanback = document.createElement("uses-feature").apply {
+                    setAttribute("android:name", "android.software.leanback")
+                    setAttribute("android:required", "false")
+                }
+                val touchscreen = document.createElement("uses-feature").apply {
+                    setAttribute("android:name", "android.hardware.touchscreen")
+                    setAttribute("android:required", "false")
+                }
+
+                it.appendChild(leanback)
+                it.appendChild(touchscreen)
             }
 
             val intentFilters = document.getElementsByTagName("intent-filter")
-            intentFilters.item(0).apply {
-                document.createElement("category").apply {
+            intentFilters.item(0).let {
+                val leanbackLauncher = document.createElement("category").apply {
                     setAttribute("android:name", "android.intent.category.LEANBACK_LAUNCHER")
                 }
+                it.appendChild(leanbackLauncher)
             }
         }
     }

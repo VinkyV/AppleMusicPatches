@@ -1,3 +1,10 @@
+# 1.0.0 (2026-06-25)
+
+
+### Features
+
+* update README.md & trigger release ([ddb11cf](https://github.com/VinkyV/AppleMusicPatches/commit/ddb11cf9366e5eaacdde9227076676da6f8f4345))
+
 ## [1.0.4](https://github.com/ReVanced/revanced-patches-template/compare/v1.0.3...v1.0.4) (2024-11-05)
 
 ## [1.0.4-dev.2](https://github.com/ReVanced/revanced-patches-template/compare/v1.0.4-dev.1...v1.0.4-dev.2) (2024-11-05)
